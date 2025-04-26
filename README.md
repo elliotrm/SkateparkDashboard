@@ -79,11 +79,11 @@ Le projet suit la structure suivante :
 /
 ├── OTP/
 │   └── graphs/
-│       └── default/      # Dossier pour les fichiers OTP
-├── data/                # Données géographiques (skateparks, iris, etc.)
-├── scripts/             # Scripts R pour l'analyse
-├── output/              # Cartes et résultats des analyses
-└── README.md            # Documentation du projet
+│       └── default/     Dossier pour les fichiers OTP
+├── data/                Données géographiques (skateparks, iris, etc.)
+├── scripts/             Scripts R pour l'analyse
+├── output/              Cartes et résultats des analyses
+└── README.md            Documentation du projet
 
 
 ## Conclusion
