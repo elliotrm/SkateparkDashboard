@@ -1,0 +1,170 @@
+/* 1. Réinitialisation des marges et padding de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Définir la police par défaut et la couleur de fond */
+  body {
+    font-family: 'Roboto', sans-serif;  /* Police Google Fonts */
+    background-color: #f4f4f9;  /* Couleur de fond claire */
+    color: #333;  /* Texte de couleur sombre pour un bon contraste */
+  }
+  
+  /* 3. Mise en forme de la barre de navigation */
+  .navbar {
+    background-color: #2c3e50;  /* Couleur de fond de la barre de navigation */
+    color: white;  /* Couleur du texte de la barre de navigation */
+    border-radius: 0;  /* Suppression des bords arrondis */
+    padding: 10px 20px;  /* Espacement de la barre de navigation */
+  }
+  
+  .navbar a {
+    color: white;  /* Couleur des liens */
+    text-decoration: none;  /* Supprimer les soulignements des liens */
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;  /* Souligner les liens au survol */
+  }
+  
+  /* 4. Mise en forme des cartes et sections de contenu */
+  .card {
+    background-color: white;  /* Fond des cartes */
+    border-radius: 12px;  /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .card-title {
+    font-size: 1.5em;  /* Taille du titre */
+    color: #2c3e50;  /* Couleur sombre pour les titres */
+    margin-bottom: 15px;
+  }
+  
+  .card-body {
+    font-size: 1em;
+    color: #555;  /* Couleur du texte des cartes */
+  }
+  
+  /* 5. Améliorer l'apparence des tables */
+  table {
+    width: 100%;  /* Prendre toute la largeur */
+    border-collapse: collapse;  /* Fusionner les bordures des cellules */
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 12px 15px;  /* Espacement des cellules */
+    text-align: left;  /* Alignement du texte */
+  }
+  
+  th {
+    background-color: #007bff;  /* Couleur de fond des en-têtes */
+    color: white;  /* Couleur du texte des en-têtes */
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;  /* Fond alterné pour les lignes paires */
+  }
+  
+  tr:hover {
+    background-color: #e9e9e9;  /* Survol de ligne */
+  }
+  
+  /* 6. Personnalisation des boutons */
+  button {
+    background-color: #007bff;  /* Couleur du fond des boutons */
+    color: white;  /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;  /* Couleur de fond du bouton au survol */
+  }
+  
+  /* 7. Personnalisation des liens */
+  a {
+    color: #007bff;  /* Couleur des liens */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;  /* Souligner les liens au survol */
+  }
+  
+  /* 8. Mise en forme du footer */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* 9. Mise en forme de la zone de contenu principal */
+  .main-content {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  /* 10. Améliorer l'apparence des graphiques et cartes */
+  .chart-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .chart-container iframe {
+    width: 100%;
+    height: 500px;  /* Hauteur des graphiques */
+    border: none;
+  }
+  
+  /* 11. Mise en forme de la zone de recherche (si utilisée) */
+  .search-container input {
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-container input:focus {
+    border-color: #007bff;
+  }
+  
+  /* 12. Mise en forme des titres et sous-titres */
+  h1, h2, h3 {
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+  }
+  
